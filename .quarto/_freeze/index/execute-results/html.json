@@ -1,0 +1,15 @@
+{
+  "hash": "3986472339face507f7dcdc1d3d6a5ff",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n::: {.cell}\n\n```{.r .cell-code}\nSys.Date()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"2025-06-10\"\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,19 @@
+---
+title: About
+about:
+  template: solana
+  image: assets/images/profile.webp
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/Srishti-Ram
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/srishti-ramanathan-864895219/
+---
+
+### **Hey!**
+
+Thanks for stopping by!
+
+I am Srishti Ramanathan, currently pursuing my PhD in cardiac genomics and mechanisms of heart failure at the Sahlgrenska Hospital, University of Gothenburg, Sweden. I graduated with a master's degree in molecular and cellular biology from the University of Munich and a bachelor's degree par distinction in Biomedical Sciences (Hons.) with a specialization in human genetics.

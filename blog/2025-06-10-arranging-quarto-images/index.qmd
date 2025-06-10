@@ -1,0 +1,23 @@
+---
+title: About my work so far
+subtitle: A brief overview of my scientific journey
+author: Srishti Ramanathan
+date: 2025-06-10
+categories:
+  - genomics
+  - molecular biology
+slug: about-my-work
+page-layout: article
+image1: featured1.webp
+image2: featured2.webp
+---
+
+During the course of my scientific journey so far, I have worked on projects involving both molecular biology and computational genomics.
+
+::: {#fig-mylabel layout-ncol="2"}
+![Understanding enhancer modularity in Drosophila (paper under review, Science Advances)](featured1.webp)
+
+![Studying giant genomes using target capture approach (research course, MSc., 2021)](featured2.webp)
+
+Here are some interesting results from both projects.
+:::

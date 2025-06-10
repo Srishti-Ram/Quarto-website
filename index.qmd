@@ -1,0 +1,42 @@
+---
+pagetitle: Home
+title: "Srishti Ramanathan"
+subtitle: "Doctoral student in cardiac genomics"
+image: assets/images/home.webp
+
+about:
+  template: solana
+  image-width: 25em
+  id: hero-heading
+
+listing:
+- id: blog-preview
+  contents: 
+    - blog/*/*.qmd
+  sort: false
+  type: grid
+  grid-columns: 3
+  max-items: 3
+  image-height: 150px
+  fields: [image, title]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: false
+page-layout: full
+---
+
+::: { #hero-heading }
+
+I am Srishti Ramanathan, and here I post about my experiences as a woman in STEM. Explore the pages
+to know more about my technical skills, achievements and research projects. Feel free to contact me on social 
+media for more details or collaborations.
+
+[[**About me >**]{.btn .btn-primary .btn-md}](about.qmd)
+
+:::
+
+## Latest Blog Posts
+
+:::{ #blog-preview }
+:::
