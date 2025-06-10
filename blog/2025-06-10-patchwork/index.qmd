@@ -13,7 +13,6 @@ image: header.webp
 ---
 
 ![Srishti Ramanathan](header.webp)
-  {width=150px style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"}
 
 # Technical Skills
 
@@ -39,5 +38,5 @@ Institute for Cardiovascular Disease Prevention (IPEK), LMU Klinikum
 # Research Projects & Publications
 
 **Entangled and non-modular enhancer sequences producing independent spatial activities**  
-- Science advances (2025) [https://www.science.org/doi/10.1126/sciadv.adr9856?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed](Link to Publication)
+- Science advances (2025) [Link to publication](https://www.science.org/doi/10.1126/sciadv.adr9856?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
