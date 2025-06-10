@@ -25,20 +25,20 @@
     "href": "index.html#latest-blog-posts",
     "title": "Srishti Ramanathan",
     "section": "Latest Blog Posts",
-    "text": "Latest Blog Posts\n\n\n\n\n\n\n\n\nAbout my work so far\n\n\n\n\n\n\n\n\n\n\n\n\nCombining plots in ggplot2\n\n\n\n\n\nNo matching items"
+    "text": "Latest Blog Posts\n\n\n\n\n\n\n\n\nAbout my work so far\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "About my work so far\n\n\n\ngenomics\n\nmolecular biology\n\n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCombining plots in ggplot2\n\n\n\nR\n\nggplot2\n\nvisualization\n\n\n\n\n\n\nMay 27, 2025\n\n\n\n\n\nNo matching items"
+    "text": "About my work so far\n\n\n\ngenomics\n\nmolecular biology\n\n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\n\ncell culture\n\nR and Python\n\nHistology\n\n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/2025-06-10-patchwork/index.html",
     "href": "blog/2025-06-10-patchwork/index.html",
-    "title": "Combining plots in ggplot2",
+    "title": "Curriculum vitae",
     "section": "",
-    "text": "We need to load the following R libraries:\n\nlibrary(ggplot2)\nlibrary(patchwork)\nlibrary(dplyr)\n\nCreate two plots:\n\np1 &lt;- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +\n  geom_point() +\n  labs(title = \"Sepal Length vs Sepal Width\") +\n  theme_minimal()\n\np2 &lt;- ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +\n  geom_point() +\n  labs(title = \"Weight vs MPG\") +\n  theme_minimal()\n\nNow we can arrange the two plots side by side using the patchwork package:\n\np1 + p2\n\n\n\n\n\n\n\nFigure 1: Side by side plots using patchwork\n\n\n\n\n\nYou can also customize the layout further, for example by adding a common title or adjusting the spacing:\n\n(p1 + p2) +\n  plot_layout(ncol = 2) +\n  plot_annotation(title = \"Side by Side Plots in ggplot2\") +\n  theme(plot.title = element_text(hjust = 0.5))\n\n\n\n\n\n\n\nFigure 2: Common title\n\n\n\n\n\nYou can also position the plots one below the other:\n\np1 / p2\n\n\n\n\n\n\n\nFigure 3: Top and bottom plots using patchwork"
+    "text": "{width=150px style=“border-radius: 50%; display: block; margin-left: auto; margin-right: auto;”}\n\nTechnical Skills\n\nMammalian cell culture (primary & immortalized lines)\nMolecular biology: PCR, qPCR, Western blotting, ELISA, DNA/RNA extraction\nImmunohistochemistry, immunofluorescence, confocal microscopy\nData analysis: R, Python, GraphPad Prism, ImageJ\n\n\n\nWork Experience\nDoctoral Student\nSahlgrenska Institute, University of Gothenburg 2025-Present\n- Work on somatic variant analyses on cardiac whole genome sequencing data\nTechnical Assistant\nInstitute for Cardiovascular Disease Prevention (IPEK), LMU Klinikum 2023–2024\n- Executed cell culture and molecular biology experiments for cardiovascular research - Maintained laboratory records, managed inventory, and trained new students\n- Analyzed imaging data using LasX and ImageJ\n\n\nResearch Projects & Publications\nEntangled and non-modular enhancer sequences producing independent spatial activities\n- Science advances (2025) https://www.science.org/doi/10.1126/sciadv.adr9856?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
   }
 ]
