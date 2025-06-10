@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hey!\nThanks for stopping by!\nI am Srishti Ramanathan, currently pursuing my PhD in cardiac genomics and mechanisms of heart failure at the Sahlgrenska Hospital, University of Gothenburg, Sweden. I graduated with a master’s degree in molecular and cellular biology from the University of Munich and a bachelor’s degree par distinction in Biomedical Sciences (Hons.) with a specialization in human genetics."
+  },
+  {
+    "objectID": "blog/2025-06-10-arranging-quarto-images/index.html",
+    "href": "blog/2025-06-10-arranging-quarto-images/index.html",
+    "title": "About my work so far",
+    "section": "",
+    "text": "During the course of my scientific journey so far, I have worked on projects involving both molecular biology and computational genomics.\n\n\n\n\n\n\n\n\nUnderstanding enhancer modularity in Drosophila (paper under review, Science Advances)\n\n\n\n\n\n\n\nStudying giant genomes using target capture approach (research course, MSc., 2021)\n\n\n\n\n\n\nFigure 1: Here are some interesting results from both projects."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Srishti Ramanathan",
+    "section": "",
+    "text": "I am Srishti Ramanathan, and here I post about my experiences as a woman in STEM. Explore the pages to know more about my technical skills, achievements and research projects. Feel free to contact me on social media for more details or collaborations.\nAbout me &gt;"
+  },
+  {
+    "objectID": "index.html#latest-blog-posts",
+    "href": "index.html#latest-blog-posts",
+    "title": "Srishti Ramanathan",
+    "section": "Latest Blog Posts",
+    "text": "Latest Blog Posts\n\n\n\n\n\n\n\n\nAbout my work so far\n\n\n\n\n\n\n\n\n\n\n\n\nCombining plots in ggplot2\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "About my work so far\n\n\n\ngenomics\n\nmolecular biology\n\n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCombining plots in ggplot2\n\n\n\nR\n\nggplot2\n\nvisualization\n\n\n\n\n\n\nMay 27, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/2025-06-10-patchwork/index.html",
+    "href": "blog/2025-06-10-patchwork/index.html",
+    "title": "Combining plots in ggplot2",
+    "section": "",
+    "text": "We need to load the following R libraries:\n\nlibrary(ggplot2)\nlibrary(patchwork)\nlibrary(dplyr)\n\nCreate two plots:\n\np1 &lt;- ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +\n  geom_point() +\n  labs(title = \"Sepal Length vs Sepal Width\") +\n  theme_minimal()\n\np2 &lt;- ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +\n  geom_point() +\n  labs(title = \"Weight vs MPG\") +\n  theme_minimal()\n\nNow we can arrange the two plots side by side using the patchwork package:\n\np1 + p2\n\n\n\n\n\n\n\nFigure 1: Side by side plots using patchwork\n\n\n\n\n\nYou can also customize the layout further, for example by adding a common title or adjusting the spacing:\n\n(p1 + p2) +\n  plot_layout(ncol = 2) +\n  plot_annotation(title = \"Side by Side Plots in ggplot2\") +\n  theme(plot.title = element_text(hjust = 0.5))\n\n\n\n\n\n\n\nFigure 2: Common title\n\n\n\n\n\nYou can also position the plots one below the other:\n\np1 / p2\n\n\n\n\n\n\n\nFigure 3: Top and bottom plots using patchwork"
+  }
+]
